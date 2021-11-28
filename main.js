@@ -8,12 +8,12 @@ var midRight = document.getElementsById("6").value;
 var botLeft = document.getElementsById("7").value;
 var botMid = document.getElementsById("8").value;
 var botRight = document.getElementsById("9").value;
-
+// IMPORTANT supposed to recognize a win but isn't work.
 if (topLeft == "X" && topMid == "X" && topRight == "X") {
   document.getElementById("results").innerHTML = "Player X wins!!!";
   window.alert("Player X wins!!!");
 }
-
+// function for marking an X or O when clicking the boxes.
 function myfnc1() {
   if (counter == 1) {
     document.getElementById("1").innerHTML = "X";

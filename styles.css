@@ -5,19 +5,19 @@
   padding: 0;
   font-family: "Poppins", sans-serif;
 }
-
+/*the header */
 header {
   text-align: center;
   font-size: 50px;
   font-weight: bold;
   padding: 10px;
 }
-
+/*the display for the results */
 .whos-turn {
   text-align: center;
   padding: 10px;
 }
-
+/*the box for the tictactoe game */
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
@@ -41,7 +41,7 @@ header {
 .grid-item:hover {
   background: rgb(60, 60, 60);
 }
-
+/*the restart button */
 .reset-button {
   text-align: center;
 }
