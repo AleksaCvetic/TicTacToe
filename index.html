@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TicTacToe</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>TicTacToe</header>
+
+    <div class="whos-turn"><h1 id="results">PlayerX's turn to play!</h1></div>
+
+    <div class="grid-container">
+      <div class="grid-item 1" onclick="myfnc1()" id="div1">
+        <span class="top-left" id="1">1</span>
+      </div>
+      <div class="grid-item 2" onclick="myfnc2()" id="div2">
+        <span class="top-middle" id="2">2</span>
+      </div>
+      <div class="grid-item 3" onclick="myfnc3()" id="div3">
+        <span class="top-right" id="3">3</span>
+      </div>
+      <div class="grid-item 4" onclick="myfnc4()" id="div4">
+        <span class="middle-left" id="4">4</span>
+      </div>
+      <div class="grid-item 5" onclick="myfnc5()" id="div5">
+        <span class="middle-middle" id="5">5</span>
+      </div>
+      <div class="grid-item 6" onclick="myfnc6()" id="div6">
+        <span class="middle-right" id="6">6</span>
+      </div>
+      <div class="grid-item 7" onclick="myfnc7()" id="div7">
+        <span class="bottom-left" id="7">7</span>
+      </div>
+      <div class="grid-item 8" onclick="myfnc8()" id="div8">
+        <span class="bottom-middle" id="8">8</span>
+      </div>
+      <div class="grid-item 9" onclick="myfnc9()" id="div9">
+        <span class="bottom-right" id="9">9</span>
+      </div>
+    </div>
+
+    <div class="reset-button">
+      <button type="reset" id="button-reset">RESET</button>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
